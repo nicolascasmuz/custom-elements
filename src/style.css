@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.general {
+  width: 315px;
+  margin: 0 auto;
+}
+
+@media (min-width: 600px) {
+  .general {
+    width: 580px;
+  }
+}
+
+custom-header {
+  margin-bottom: 41px;
+}
+
+@media (min-width: 600px) {
+  custom-header {
+    height: 80px;
+  }
+}
+
+.contenedor-titulo {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  margin-bottom: 72px;
+}
+
+.contenedor-parrafos {
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+}
+
+custom-h3 {
+  margin: 110px 0px;
+}
+
+.formulario {
+  display: grid;
+  gap: 16px;
+  width: 312px;
+  margin: 0 auto;
+  margin-bottom: 86px;
+}
+
+@media (min-width: 600px) {
+  .formulario {
+    width: 353px;
+  }
+}
+
+button-volver {
+  padding: 70px 0px;
+}
